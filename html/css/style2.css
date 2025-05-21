@@ -82,7 +82,7 @@ body {
     color: white;
     text-align: center;
     background-image: url("../media/filmbg.gif");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
