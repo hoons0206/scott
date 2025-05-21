@@ -1,0 +1,270 @@
+
+
+@font-face {
+    font-family: 'crescendo';
+    src: url('../fonts/crescendo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notosans';
+    src: url('../fonts/notosans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'summerfav';
+    src: url('../fonts/summerfav.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lora';
+    src: url('../fonts/lora.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorantgaramond';
+    src: url('../fonts/cormorantgaramond.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abrilfatface';
+    src: url('../fonts/abrilfatface.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'petitformalscript';
+    src: url('../fonts/petitformalscript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('../fonts/quicksand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kumarone';
+    src: url('../fonts/kumarone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+a {
+  text-decoration-line: none;
+  color: white;
+}
+
+
+
+
+body {
+    font-family: "notosans", monospace;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url("../media/bg1.png");
+    background-size: flex;
+    background-repeat: no-repeat;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;      /* 수평 정렬 명확하게 지정 */
+    align-items: center;      /* 수직 가운데 정렬 */
+    justify-content: flex-start; /* 수평 왼쪽 정렬 (또는 space-between) */
+    gap: 30px;                /* 요소 사이 간격 추가 (선택) */
+    padding: 20px 100px;
+}
+
+header p {
+  display: inline-block;   /* 또는 flex 안에선 block도 OK */
+  width: auto;             /* 너비 제한 */
+  margin: 0 10px;          /* 간격 */
+  white-space: nowrap;     /* 줄바꿈 방지 */
+}
+
+.CV{
+  font-size: 1rem;
+  padding: 100px 50px;
+  margin: 50px;
+  text-align: left;
+}
+
+
+footer {
+    background-color: transparent;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    margin-top: 600px;
+    font-size: 0.7rem;
+}
+
+span {
+    transition: font-size 0.5s;
+}
+span:hover {
+    font-size: 105%;
+}
+
+.books {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 150%;
+}
+
+.book-list {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    background: transparent;
+    color: white;
+    padding: 0px 0px;
+    white-space: nowrap;
+}
+
+.books:hover .book-list {
+    display: block;
+}
+
+.book-list p {
+    opacity: 0;
+    transform: translateY(20px);
+    margin: 0;
+    transition: none;
+    padding-top: 10px;
+}
+
+.books:hover .book-list p:nth-child(1) {
+    animation: fadeInUp 0.5s 0.1s forwards;
+}
+.books:hover .book-list p:nth-child(2) {
+    animation: fadeInUp 0.5s 0.4s forwards;
+}
+.books:hover .book-list p:nth-child(3) {
+    animation: fadeInUp 0.5s 0.7s forwards;
+}
+.books:hover .book-list p:nth-child(4) {
+    animation: fadeInUp 0.5s 1.1s forwards;
+}
+.books:hover .book-list p:nth-child(5) {
+    animation: fadeInUp 0.5s 1.5s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.works{
+    text-align: left;
+    margin: 100px;
+    padding: 50px;
+    font-weight: 100;
+}
+
+.works1{
+     display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-family: 'summerfav';
+    font-size: 300%;
+}
+.works2{
+     display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-family: 'lora';
+    font-size: 270%;
+}
+
+.works3{
+     display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-family: 'cormorantgaramond';
+    font-size: 300%;
+}
+
+.works4{
+     display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-family: abrilfatface;
+    font-size: 250%;
+}
+
+.works5{
+     display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-family: 'quicksand';
+    font-size: 270%;
+}
+
+.works6{
+     display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-family: 'petitformalscript';
+    font-size: 320%;
+}
+.works7{
+    font-family: 'kumarone';
+    font-size: 270%;
+}
+
+.workexp{
+    font-family: notosans;
+    font-size: 0.9rem;
+       font-weight: 100;
+}
+
+.cvimage{
+    font-size: 0.8rem;
+}
+
+.cvimage p{
+    display: inline-block;
+    text-align:left ;
+    padding: 0px 15px;
+}
+
+h1 {
+    font-family: 'crescendo';
+    font-size: 900%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
