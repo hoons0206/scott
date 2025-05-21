@@ -109,7 +109,13 @@ body::-webkit-scrollbar {
   text-align: left;
 }
 
+.tribute{
+    font-size: 0.8 rem;
+    text-align: left;
+    margin: 0% 10%;
+    margin-top: 3%;
 
+}
 footer {
     background-color: transparent;
     color: white;
@@ -269,9 +275,27 @@ p {
     font-weight: lighter;
 }
 
-
-
-p {
-    font-weight: lighter;
+.contact-table {
+  max-width: 800px;
+  margin: 50px auto;
+  font-family: 'Noto Sans', serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #DCDCDC;
 }
 
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.label {
+  width: 150px;
+  font-weight: bold;
+  flex-shrink: 0;
+  color: #AAAAAA;
+}
+
+.value {
+  flex: 1;
+}
