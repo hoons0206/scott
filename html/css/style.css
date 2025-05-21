@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'notosans';
     src: url('../fonts/notosans.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
 }
 
