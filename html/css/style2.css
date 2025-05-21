@@ -265,3 +265,8 @@ h1 {
     font-family: 'crescendo';
     font-size: 900%;
 }
+
+p {
+    font-weight: lighter;
+}
+
