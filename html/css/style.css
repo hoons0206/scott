@@ -193,14 +193,14 @@ span:hover {
 }
 
 .works1{
-     display: inline-block;
+     display: block;
     position: relative;
     cursor: pointer;
     font-family: 'summerfav';
     font-size: 300%;
 }
 .works2{
-     display: inline-block;
+     display: block;
     position: relative;
     cursor: pointer;
     font-family: 'lora';
@@ -208,7 +208,7 @@ span:hover {
 }
 
 .works3{
-     display: inline-block;
+     display: block;
     position: relative;
     cursor: pointer;
     font-family: 'cormorantgaramond';
@@ -216,7 +216,7 @@ span:hover {
 }
 
 .works4{
-     display: inline-block;
+     display: block;
     position: relative;
     cursor: pointer;
     font-family: abrilfatface;
@@ -224,7 +224,7 @@ span:hover {
 }
 
 .works5{
-     display: inline-block;
+     display: block;
     position: relative;
     cursor: pointer;
     font-family: 'quicksand';
@@ -232,13 +232,16 @@ span:hover {
 }
 
 .works6{
-     display: inline-block;
+     display: block;
     position: relative;
     cursor: pointer;
     font-family: 'petitformalscript';
     font-size: 320%;
 }
 .works7{
+    display: block;
+    position: relative;
+    cursor: pointer;
     font-family: 'kumarone';
     font-size: 270%;
 }
