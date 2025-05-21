@@ -75,7 +75,7 @@ a {
 
 
 body {
-    font-family: "notosans", monospace;
+    font-family: "notosans";
     margin: 0px;
     padding: 0px;
     background-color: black;
@@ -100,12 +100,7 @@ body::-webkit-scrollbar {
     padding: 20px 100px;
 }
 
-header p {
-  display: inline-block;   /* 또는 flex 안에선 block도 OK */
-  width: auto;             /* 너비 제한 */
-  margin: 0 10px;          /* 간격 */
-  white-space: nowrap;     /* 줄바꿈 방지 */
-}
+
 
 .CV{
   font-size: 1rem;
@@ -239,7 +234,7 @@ span:hover {
     font-size: 320%;
 }
 .works7{
-    display: block;
+     display: block;
     position: relative;
     cursor: pointer;
     font-family: 'kumarone';
@@ -270,6 +265,11 @@ h1 {
 h3 {
     font-size: 150%;
 }
+p {
+    font-weight: lighter;
+}
+
+
 
 p {
     font-weight: lighter;
